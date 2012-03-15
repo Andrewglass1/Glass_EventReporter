@@ -1,0 +1,28 @@
+#requirements
+
+$LOAD_PATH << './'
+require 'rubygems'
+require 'csv'
+require 'attendee'
+require 'Queue'
+require 'ruby-debug'
+require 'EventManager'
+require 'cane'
+#require 'highline/import'
+require "highline/system_extensions"
+include HighLine::SystemExtensions
+
+#cane --style-glob '**/*.rb' --abc-glob '**/*.rb'
+
+#script
+em = EventManager.new("event_attendees.csv")
+em.prompt
+
+
+#em.print_zipcodes
+#em.print_zipcode
+#em.print_phone
+#em.load_file("alt_file.csv")
+
+#queue_instance=Queue.new
+#queue_instance.find(em.attendees, "NY", "state") # "NC")

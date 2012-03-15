@@ -1,0 +1,8 @@
+This  script uses a gem 'highline' to record a key press.
+Type:
+
+gem install highline
+
+in your command line.
+
+The program fulfills the 'improve print', 'improve find' and 'query math' extensions
