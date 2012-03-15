@@ -3,6 +3,6 @@ Type:
 
 gem install highline
 
-in your command line.
+in your command line for the program to run properly.
 
 The program fulfills the 'improve print', 'improve find' and 'query math' extensions
