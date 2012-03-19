@@ -1,7 +1,7 @@
-This  script uses a gem 'highline' to record a key press.
+This  script uses bundler to install gems
 Type:
 
-gem install highline
+gem install bundler
 
 in your command line.
 

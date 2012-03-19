@@ -1,0 +1,7 @@
+source :rubygems
+
+require 'ruby-debug'
+require 'csv'
+require 'cane'
+require "highline/system_extensions"
+

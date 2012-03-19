@@ -3,7 +3,14 @@ class Attendee
   INVALID_ZIPCODE = "00000"
   INVALID_PHONE = "0000000000"
 
-  attr_accessor :first_name, :last_name, :homephone, :email_address, :city, :state, :zipcode, :street
+  attr_accessor :first_name,
+                :last_name,
+                :homephone,
+                :email_address,
+                :city,
+                :state,
+                :zipcode,
+                :street
 
 
 

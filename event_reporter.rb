@@ -1,15 +1,11 @@
 #requirements
 
+require "bundler"
+Bundler.require
 $LOAD_PATH << './'
-require 'rubygems'
-require 'csv'
 require 'attendee'
 require 'Queue'
-require 'ruby-debug'
 require 'EventManager'
-require 'cane'
-#require 'highline/import'
-require "highline/system_extensions"
 include HighLine::SystemExtensions
 
 #cane --style-glob '**/*.rb' --abc-glob '**/*.rb'
