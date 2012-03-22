@@ -167,16 +167,11 @@ class Queue
            "#{'CITY'.ljust(14, " ")}  "+
            "#{'ADDRESS'.ljust(35, " ")}"+
            "#{'PHONE'.ljust(12, " ")}"
-      puts "this is where records would be, but you have none"
-      puts ""
-      puts ""
-      puts ""
-
+      puts "this is where records would be, but you have none \n\n"
     else
       puts "calm down buddy, you haven't even made a queue yet"
     end
   end
-
 
   def last_name_length
     if @data_queue

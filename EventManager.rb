@@ -142,7 +142,6 @@ class EventManager
   def queue(input)
     if input.length == 2 && input[1] == "print"
         @queue_instance.queue_print
-
     elsif input[1..2].join(" ")== "print by" && input[3] != nil
       if @attributes.include?(input[3])
         @queue_instance.queue_print_by(input[3])
@@ -151,15 +150,12 @@ class EventManager
       end
     elsif input.length == 2 && input[1] == "clear"
         @queue_instance.queue_clear
-
     elsif input.length == 2 && input[1] == "count"
         @queue_instance.queue_length
-
     elsif input[1..2].join(" ")== "save to"  && input[3] != nil
         @queue_instance.output_data(input[3])
     else
         puts "sorry, not a valid queue function. Type help to list commands"
     end
-
   end
 end
